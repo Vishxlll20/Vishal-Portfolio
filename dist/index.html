@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishal Kumar — Software & AI Engineer</title>
+    <meta
+      name="description"
+      content="Interactive 3D storytelling portfolio of Vishal Kumar — Software Developer & AI Engineer. Open for opportunities and ready to put knowledge into the real world."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/assets/index-B4fIP5Gc.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-5Y-5HLDF.css">
+  </head>
+  <body>
+    <!-- Editorial Curtain Preloader -->
+    <div id="preloader" class="preloader" aria-hidden="true">
+      <div class="preloader-inner">
+        <div class="preloader-top">
+          <span class="preloader-kicker">PORTFOLIO // 2026 EDITION</span>
+          <span id="preloader-percent" class="preloader-percent">00%</span>
+        </div>
+
+        <div class="preloader-center">
+          <h1 class="preloader-name">
+            Vishal Kumar <span class="preloader-serif">in 3D</span>
+          </h1>
+          <p id="preloader-stage" class="preloader-stage">
+            Initializing 3D environment & story path...
+          </p>
+        </div>
+
+        <div class="preloader-bottom">
+          <div class="preloader-track">
+            <div id="preloader-bar" class="preloader-fill"></div>
+          </div>
+          <div class="preloader-meta">
+            <span>JAMSHEDPUR, IN</span>
+            <span>ORIGIN → SCHOOL → COLLEGE → STUDIO</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Top Scroll Progress -->
+    <div class="scroll-progress-track" aria-hidden="true">
+      <div id="scroll-progress-bar"></div>
+    </div>
+
+    <!-- Custom Pointer Cursor (Desktop) -->
+    <div id="cursor-dot" class="cursor-dot" aria-hidden="true"></div>
+    <div id="cursor-ring" class="cursor-ring" aria-hidden="true"></div>
+
+    <!-- Fullscreen 3D World -->
+    <canvas id="story-canvas" aria-label="Interactive 3D Story World"></canvas>
+
+    <!-- Minimal Typographic Studio Header (No VK badge) -->
+    <header class="story-header">
+      <a href="#chapter-origin" id="brand-wordmark" class="brand-wordmark hud-interactive">
+        <span class="wordmark-dot" aria-hidden="true"></span>
+        <span id="brand-name" class="wordmark-name">Vishal Kumar</span>
+        <span class="wordmark-sep">/</span>
+        <span id="brand-role" class="wordmark-role">Software & AI Engineer</span>
+      </a>
+
+      <div class="header-actions">
+        <span id="chapter-counter" class="chapter-counter">01 / 06</span>
+        <button id="contact-jump-btn" type="button" class="header-link-btn hud-interactive">
+          Opportunities
+        </button>
+        <button id="autoplay-btn" type="button" class="autoplay-btn hud-interactive">
+          ▶ Auto-Play Tour
+        </button>
+      </div>
+    </header>
+
+    <!-- Scroll Cue (Hero only) -->
+    <div id="scroll-cue" class="scroll-cue" aria-hidden="true">
+      <span>Scroll to begin journey</span>
+      <span class="scroll-cue-line"></span>
+    </div>
+
+    <!-- Editorial Story Track -->
+    <main id="story-track"></main>
+
+    <!-- Floating Chapter Dock -->
+    <nav id="chapter-scrubber" class="chapter-scrubber-wrap" aria-label="Story Chapters"></nav>
+
+    <!-- Case Study / Experience Detail Modal -->
+    <div id="detail-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="modal-panel">
+        <div class="modal-head">
+          <div>
+            <div id="modal-kicker" class="modal-kicker"></div>
+            <h3 id="modal-title" class="modal-title"></h3>
+            <div id="modal-sub" class="modal-sub"></div>
+          </div>
+          <button id="modal-close-btn" type="button" class="modal-close-btn" aria-label="Close">
+            ✕
+          </button>
+        </div>
+        <p id="modal-summary" class="modal-summary"></p>
+        <div id="modal-metrics" class="modal-metrics"></div>
+        <ul id="modal-list" class="modal-list"></ul>
+        <div id="modal-stack" class="modal-stack"></div>
+        <div id="modal-links" class="modal-links"></div>
+      </div>
+    </div>
+
+    <!-- Toast -->
+    <div id="toast-notification" class="toast" role="status" aria-live="polite"></div>
+
+  </body>
+</html>
