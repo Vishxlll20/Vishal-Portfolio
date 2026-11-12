@@ -1,7 +1,3 @@
-/**
- * Vishal Kumar — Portfolio Data & Storytelling Chapters
- * Update `liveUrl`, `githubUrl`, and `profile.links` with your exact URLs.
- */
 export const VISHAL_DATA = {
   profile: {
     name: 'Vishal Kumar',
@@ -27,7 +23,7 @@ export const VISHAL_DATA = {
       index: '01',
       navLabel: 'Origin',
       eyebrow: '01 / ORIGIN — JAMSHEDPUR',
-      title: 'Every system starts with a single question.',
+      title: 'Where curiosity sparked a lifelong journey in software & AI.',
       subtitle: 'Vishal Kumar · Software & AI Engineer',
       description:
         'Scroll to follow my journey in real time: walking through school foundations, cycling across campus to R.V.S. College of Engineering & Technology, and sitting down at my studio desk to ship full-stack and AI products.',
@@ -37,12 +33,12 @@ export const VISHAL_DATA = {
       id: 'school',
       index: '02',
       navLabel: 'School',
-      eyebrow: '02 / DAV PUBLIC SCHOOL',
-      title: 'Where curiosity turned into foundational science & code.',
+      eyebrow: '02 / KASIDIH HIGH SCHOOL',
+      title: 'Walking through the foundations of analytical thinking & coding.',
       subtitle: 'Basic Physics, Chemistry, Maths · Basic Python & Java',
       description:
-        'Walking through DAV Public School built my core analytical habits—learning basic Physics, Chemistry, and Mathematics alongside my first steps in basic Python and Java coding.',
-      highlights: ['Physics, Chemistry & Maths', 'Basic Python', 'Basic Java & Logic'],
+        'Walking through Kasidih High School built my core analytical habits—learning basic Physics, Chemistry, and Mathematics alongside my first steps in basic Python and Java coding.',
+      highlights: ['Physics, Chemistry & Maths', 'Basic Python', 'Basic Java, Logic & DBMS'],
     },
     {
       id: 'college',
@@ -74,7 +70,7 @@ export const VISHAL_DATA = {
       title: 'Production engineering & flagship builds.',
       subtitle: 'Tata Steel Foundation · LexAI · PulseWatch · Moodify',
       description:
-        'Explore my industry internships and full-stack AI applications below, complete with live links, source code, and architecture breakdowns.',
+        'Explore my industry internships and full-stack AI applications below, complete with live links, source code and architecture breakdowns.',
       highlights: [],
     },
     {
@@ -123,7 +119,7 @@ export const VISHAL_DATA = {
       id: 'tsf-ai',
       role: 'Artificial Intelligence Intern',
       company: 'Tata Steel Foundation',
-      period: 'Mar 2026 – Jul 2026',
+      period: 'Jun 2026 – Jul 2026',
       location: 'Jamshedpur, Jharkhand (Hybrid)',
       accent: '#a3e635',
       summary:
@@ -156,7 +152,7 @@ export const VISHAL_DATA = {
       id: 'lexai',
       index: '01',
       title: 'LexAI — AI Legal Research & Drafting',
-      period: 'Mar 2026 – Present',
+      period: 'Jun 2026 – Present',
       accent: '#a3e635',
       stack: ['Next.js 16', 'TypeScript', 'Express.js', 'PostgreSQL', 'Redis', 'Claude AI'],
       summary:
