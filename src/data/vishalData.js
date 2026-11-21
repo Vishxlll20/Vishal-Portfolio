@@ -68,7 +68,7 @@ export const VISHAL_DATA = {
       navLabel: 'Work & Projects',
       eyebrow: '05 / WORK & SHIPPED PROJECTS',
       title: 'Production engineering & flagship builds.',
-      subtitle: 'Tata Steel Foundation · LexAI · PulseWatch · Moodify',
+      subtitle: 'Tata Steel Foundation · LexAI · PulseWatch · Moodify · ShilpSetu',
       description:
         'Explore my industry internships and full-stack AI applications below, complete with live links, source code and architecture breakdowns.',
       highlights: [],
